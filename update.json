@@ -1,27 +1,53 @@
 {
   "schema": 1,
-  "apps": 
+  "firmware": 
   {
-    "SerialPortMonitor": 
+    "BRS": 
     {
-      "latest": "1.2.1",
-      "mandatory": false,
-      "download": 
+      "latest": "1.1.0",
+      "versions": 
       {
-        "type": "msi",
-        "url": "https://.../AppA_1.2.3.msi",
-        "sha256": "64HEX..."
-      },
-    },
-    "BRS-Uploader": 
-    {
-      "latest": "1.1",
-      "mandatory": true,
-      "download": 
-      {
-        "type": "exe",
-        "url": "https://.../AppB_setup_0.9.5.exe",
-        "sha256": "64HEX..."
+        "1.1.0": 
+        {
+          "files": 
+          {
+            "bootloader": 
+            {
+              "name": "bootloader.bin",
+              "url": "https://github.com/yoodongmin98/SW-Update/releases/download/fw-ota_251229/bootloader.bin",
+              "sha256": "DE0528E4BAC64ED8387E15CCEF742713552CF57073844241584B48E03715B70D"
+            },
+            "partitions": 
+            {
+              "name": "partitions.bin",
+              "url": "https://github.com/yoodongmin98/SW-Update/releases/download/fw-ota_251229/partitions.bin",
+              "sha256": "1AE446228D79CF83A4B83DE41C33D1E01DC21A3557149D7DA90FBCBFC303311D"
+            },
+            "boot_app0": 
+            {
+              "name": "boot_app0.bin",
+              "url": "https://github.com/yoodongmin98/SW-Update/releases/download/fw-ota_251229/boot_app0.bin",
+              "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0"
+            },
+            "firmwaref": 
+            {
+              "name": "firmware.EEB",
+              "url": "https://github.com/yoodongmin98/SW-Update/releases/download/fw-ota_251229/firmware.EEB",
+              "sha256": "C66C5D410F795C0C93A5DDE5E485F0F2ADFC98BD7A18ECB2E7E3594DD73B72E9"
+            }
+          },
+          "flash": 
+          {
+            "chip": "esp32",
+            "baud": 921600,
+            "segments": [
+              { "addr": "0x1000",  "fileKey": "bootloader" },
+              { "addr": "0x8000",  "fileKey": "partitions" },
+              { "addr": "0xE000",  "fileKey": "boot_app0" },
+              { "addr": "0x10000", "fileKey": "firmware" }
+            ]
+          }
+        }
       }
     }
   }
