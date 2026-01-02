@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "apps": 
+  {
+    "SerialPortMonitor": 
+    {
+      "latest": "1.2.1",
+      "mandatory": false,
+      "download": 
+      {
+        "type": "msi",
+        "url": "https://.../AppA_1.2.3.msi",
+        "sha256": "64HEX..."
+      },
+    },
+    "BRS-Uploader": 
+    {
+      "latest": "1.1",
+      "mandatory": true,
+      "download": 
+      {
+        "type": "exe",
+        "url": "https://.../AppB_setup_0.9.5.exe",
+        "sha256": "64HEX..."
+      }
+    }
+  }
+}
