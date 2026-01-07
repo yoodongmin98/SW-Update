@@ -1,54 +1,54 @@
 {
   "schema": 1,
-  "firmware": 
+
+  "flash": 
   {
-    "BRS": 
+    "chip": "esp32",
+    "baud": 921600,
+    "segments": 
+    [
+      { "addr": "0x1000",  "fileKey": "bootloader" },
+      { "addr": "0x8000",  "fileKey": "partitions" },
+      { "addr": "0xE000",  "fileKey": "boot_app0" },
+      { "addr": "0x10000", "fileKey": "firmware" }
+    ]
+  },
+
+  "sets": 
+  [
     {
-      "latest": "1.1.0",
-      "versions": 
+      "_comment" : "OTA펌웨어 명령어 추가 버전(UID , MACSTA , INFO)"
+      "id": "fw-ota_251229",
+      "version": "1.1.0",
+      "baseUrl": "https://github.com/yoodongmin98/SW-Update/releases/download/fw-ota_251229/",
+      "files": 
       {
-        "1.1.0": 
+        "bootloader": 
         {
-          "files": 
-          {
-            "bootloader": 
-            {
-              "name": "bootloader.bin",
-              "url": "https://github.com/yoodongmin98/SW-Update/releases/download/fw-ota_251229/bootloader.bin",
-              "sha256": "DE0528E4BAC64ED8387E15CCEF742713552CF57073844241584B48E03715B70D"
-            },
-            "partitions": 
-            {
-              "name": "partitions.bin",
-              "url": "https://github.com/yoodongmin98/SW-Update/releases/download/fw-ota_251229/partitions.bin",
-              "sha256": "1AE446228D79CF83A4B83DE41C33D1E01DC21A3557149D7DA90FBCBFC303311D"
-            },
-            "boot_app0": 
-            {
-              "name": "boot_app0.bin",
-              "url": "https://github.com/yoodongmin98/SW-Update/releases/download/fw-ota_251229/boot_app0.bin",
-              "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0"
-            },
-            "firmware": 
-            {
-              "name": "firmware.EEB",
-              "url": "https://github.com/yoodongmin98/SW-Update/releases/download/fw-ota_251229/firmware.EEB",
-              "sha256": "C66C5D410F795C0C93A5DDE5E485F0F2ADFC98BD7A18ECB2E7E3594DD73B72E9"
-            }
-          },
-          "flash": 
-          {
-            "chip": "esp32",
-            "baud": 921600,
-            "segments": [
-              { "addr": "0x1000",  "fileKey": "bootloader" },
-              { "addr": "0x8000",  "fileKey": "partitions" },
-              { "addr": "0xE000",  "fileKey": "boot_app0" },
-              { "addr": "0x10000", "fileKey": "firmware" }
-            ]
-          }
+          "name": "bootloader.bin",
+          "path": "bootloader.bin",
+          "sha256": "de0528e4bac64ed8387e15ccef742713552cf57073844241584b48e03715b70d"
+        },
+        "partitions": 
+        {
+          "name": "partitions.bin",
+          "path": "partitions.bin",
+          "sha256": "1ae446228d79cf83a4b83de41c33d1e01dc21a3557149d7da90fbcbfc303311d"
+        },
+        "boot_app0": 
+        {
+          "name": "boot_app0.bin",
+          "path": "boot_app0.bin",
+          "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+        },
+        "firmware": 
+        {
+          "name": "firmware.EEB",
+          "path": "firmware.EEB",
+          "sha256": "c66c5d410f795c0c93a5dde5e485f0f2adfc98bd7a18ecb2e7e3594dd73b72e9"
         }
       }
     }
-  }
+  ]
 }
+
