@@ -17,7 +17,7 @@
   "sets": 
   [
     {
-      "_comment" : "OTA펌웨어 명령어 추가 버전(UID , MACSTA , INFO)"
+      "_comment" : "OTA펌웨어 명령어 추가 버전(UID , MACSTA , INFO)",
       "id": "fw-ota_251229",
       "version": "1.1.0",
       "baseUrl": "https://github.com/yoodongmin98/SW-Update/releases/download/fw-ota_251229/",
