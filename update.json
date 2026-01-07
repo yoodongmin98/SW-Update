@@ -49,6 +49,40 @@
         }
       }
     }
+
+    {
+      "_comment" : "ABB 1.2.5",
+      "id": "ABB1.2.5",
+      "version": "1.0.0",
+      "baseUrl": "https://github.com/yoodongmin98/SW-Update/releases/download/ABB1.2.5/",
+      "files": 
+      {
+        "bootloader": 
+        {
+          "name": "bootloader.bin",
+          "path": "bootloader.bin",
+          "sha256": "de0528e4bac64ed8387e15ccef742713552cf57073844241584b48e03715b70d"
+        },
+        "partitions": 
+        {
+          "name": "partitions.bin",
+          "path": "partitions.bin",
+          "sha256": "1ae446228d79cf83a4b83de41c33d1e01dc21a3557149d7da90fbcbfc303311d"
+        },
+        "boot_app0": 
+        {
+          "name": "boot_app0.bin",
+          "path": "boot_app0.bin",
+          "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+        },
+        "firmware": 
+        {
+          "name": "firmware.EEB",
+          "path": "firmware.EEB",
+          "sha256": "167374b0bf8ce800628e6c22b45f266177054eca28768c3f9732d7c450a70736"
+        }
+      }
+    }
   ]
 }
 
