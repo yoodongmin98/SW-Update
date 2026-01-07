@@ -50,7 +50,7 @@
         "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
         "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "167374b0bf8ce800628e6c22b45f266177054eca28768c3f9732d7c450a70736"}
       }
-    },
+    }
     
     
   ]
