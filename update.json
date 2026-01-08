@@ -36,7 +36,7 @@
         "bootloader": {"name": "bootloader.bin","path": "bootloader.bin", "sha256": "de0528e4bac64ed8387e15ccef742713552cf57073844241584b48e03715b70d"},
         "partitions": {"name": "partitions.bin","path": "partitions.bin","sha256": "1ae446228d79cf83a4b83de41c33d1e01dc21a3557149d7da90fbcbfc303311d"},
         "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
-        "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "3EF8A85A56267AA237A38147B7381B1456BD446E27FBC31B9345A053D4070FBA"}
+        "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "D3B4E5EAC037C653F0B509C946D6CB58519EDAAFAE9F0D217DFA75F9AB64F120"}
       }
     },
     
