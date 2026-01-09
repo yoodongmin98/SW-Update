@@ -27,7 +27,19 @@
         "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "C66C5D410F795C0C93A5DDE5E485F0F2ADFC98BD7A18ECB2E7E3594DD73B72E9"}
       }
     },
-
+    
+    {
+      "_comment" : "FV 4.1.13",
+      "id": "FV_4.1.13", "version": "1.0.0", "baseUrl": "https://github.com/yoodongmin98/SW-Update/releases/download/FV_4.1.13/",
+      "files": 
+      {
+        "bootloader": {"name": "bootloader.bin","path": "bootloader.bin", "sha256": "de0528e4bac64ed8387e15ccef742713552cf57073844241584b48e03715b70d"},
+        "partitions": {"name": "partitions.bin","path": "partitions.bin","sha256": "1ae446228d79cf83a4b83de41c33d1e01dc21a3557149d7da90fbcbfc303311d"},
+        "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
+        "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "11C083C515472DC1A9E9332981FA6907094AD0ED61BEF5E7C609D0FFA2D10C8E"}
+      }
+    },
+    
     {
       "_comment" : "FV 4.1.15 OTA",
       "id": "FV_4.1.15_OTA", "version": "1.0.0", "baseUrl": "https://github.com/yoodongmin98/SW-Update/releases/download/FV_4.1.15_OTA/",
@@ -52,7 +64,53 @@
       }
     }
     
-    
+    {
+      "_comment" : "ABB 1.2.5",
+      "id": "ABB_1.2.5", "version": "1.0.0", "baseUrl": "https://github.com/yoodongmin98/SW-Update/releases/download/ABB_1.2.5/",
+      "files": 
+      {
+        "bootloader": {"name": "bootloader.bin","path": "bootloader.bin", "sha256": "de0528e4bac64ed8387e15ccef742713552cf57073844241584b48e03715b70d"},
+        "partitions": {"name": "partitions.bin","path": "partitions.bin","sha256": "1ae446228d79cf83a4b83de41c33d1e01dc21a3557149d7da90fbcbfc303311d"},
+        "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
+        "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "167374B0BF8CE800628E6C22B45F266177054ECA28768C3F9732D7C450A70736"}
+      }
+    }
+
+     {
+      "_comment" : "ABB 1.3.1",
+      "id": "ABB_1.3.1", "version": "1.0.0", "baseUrl": "https://github.com/yoodongmin98/SW-Update/releases/download/ABB_1.3.1/",
+      "files": 
+      {
+        "bootloader": {"name": "bootloader.bin","path": "bootloader.bin", "sha256": "de0528e4bac64ed8387e15ccef742713552cf57073844241584b48e03715b70d"},
+        "partitions": {"name": "partitions.bin","path": "partitions.bin","sha256": "1ae446228d79cf83a4b83de41c33d1e01dc21a3557149d7da90fbcbfc303311d"},
+        "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
+        "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "5CF2B26FB7A13E6FCDEA0DEBA712F1734047E1F03FCBBB100F7588D1C1A3B28C"}
+      }
+    }
+
+     {
+      "_comment" : "VPT 1.1.3",
+      "id": "VPT_1.1.3", "version": "1.0.0", "baseUrl": "https://github.com/yoodongmin98/SW-Update/releases/download/VPT_1.1.3/",
+      "files": 
+      {
+        "bootloader": {"name": "bootloader.bin","path": "bootloader.bin", "sha256": "de0528e4bac64ed8387e15ccef742713552cf57073844241584b48e03715b70d"},
+        "partitions": {"name": "partitions.bin","path": "partitions.bin","sha256": "1ae446228d79cf83a4b83de41c33d1e01dc21a3557149d7da90fbcbfc303311d"},
+        "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
+        "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "BDB74177CCCBC33657029BC8CFDEA14DEEBCEDB1575C3EF03F1B598A4BB04491"}
+      }
+    }
+
+      {
+      "_comment" : "TV 1.0.6_Mods0",
+      "id": "TV_1.0.6_Mods0", "version": "1.0.0", "baseUrl": "https://github.com/yoodongmin98/SW-Update/releases/download/TV_1.0.6_Mods0/",
+      "files": 
+      {
+        "bootloader": {"name": "bootloader.bin","path": "bootloader.bin", "sha256": "de0528e4bac64ed8387e15ccef742713552cf57073844241584b48e03715b70d"},
+        "partitions": {"name": "partitions.bin","path": "partitions.bin","sha256": "1ae446228d79cf83a4b83de41c33d1e01dc21a3557149d7da90fbcbfc303311d"},
+        "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
+        "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "47EEA6DBD04C9E7578B3213734528E46C296D88C9D14099B37E3D19EEC1E91C4"}
+      }
+    }
   ]
   
 }
