@@ -62,7 +62,7 @@
         "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
         "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "3032712F05CF8920C24AE00D135C9BB0653EC7AFA4EA68FEBF6538E5CF8AB0FD"}
       }
-    }
+    },
     
     {
       "_comment" : "ABB 1.2.5",
@@ -74,7 +74,7 @@
         "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
         "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "167374B0BF8CE800628E6C22B45F266177054ECA28768C3F9732D7C450A70736"}
       }
-    }
+    },
 
      {
       "_comment" : "ABB 1.3.1",
@@ -86,7 +86,7 @@
         "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
         "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "5CF2B26FB7A13E6FCDEA0DEBA712F1734047E1F03FCBBB100F7588D1C1A3B28C"}
       }
-    }
+    },
 
      {
       "_comment" : "VPT 1.1.3",
@@ -98,7 +98,7 @@
         "boot_app0": {"name": "boot_app0.bin","path": "boot_app0.bin","sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"},
         "firmware": {"name": "firmware.EEB","path": "firmware.EEB","sha256": "BDB74177CCCBC33657029BC8CFDEA14DEEBCEDB1575C3EF03F1B598A4BB04491"}
       }
-    }
+    },
 
       {
       "_comment" : "TV 1.0.6_Mods0",
